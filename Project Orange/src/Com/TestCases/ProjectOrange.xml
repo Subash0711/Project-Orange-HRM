@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Orange Suite" parallel="methods" thread-count="8">
+ <!-- parallel="methods" thread-count="2" -->
+  <test name="Orange Tests">
+  
+	<groups>
+ 	 	<run>
+ 	 	<include name="overAllFunctions"></include>
+  		</run>
+  	</groups> 
+  
+   <classes>
+ 	
+ 		<class name="Com.TestCases.LoginTestCase"></class>
+ 		<class name="Com.TestCases.LoginFailTest"></class>
+ 		<class name="Com.TestCases.CheckBoardsTest"></class>
+ 		<class name="Com.TestCases.UpdateProfileTest"></class>
+		<class name="Com.TestCases.UpdateContDetlsTest"></class>
+		<class name="Com.TestCases.AddAdminUser"></class> 
+		<class name="Com.TestCases.UploadFileTest"></class> 
+		<class name="Com.TestCases.LogoutTestCase"></class> 
+		
+			
+  
+ 	</classes>
+  </test>
+ </suite>

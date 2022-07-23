@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-17T18:11:58 IST" name="Orange Suite" finished-at="2022-07-17T18:14:00 IST" duration-ms="122371">
+    <groups>
+      <group name="overAllFunctions">
+        <method signature="AddAdminUser.addAdminUser()[pri:0, instance:Com.TestCases.AddAdminUser@188715b5]" name="addAdminUser" class="Com.TestCases.AddAdminUser"/>
+        <method signature="CheckBoardsTest.checkBoradTest()[pri:0, instance:Com.TestCases.CheckBoardsTest@50eac852]" name="checkBoradTest" class="Com.TestCases.CheckBoardsTest"/>
+        <method signature="LoginFailTest.loginFailTest()[pri:0, instance:Com.TestCases.LoginFailTest@61df66b6]" name="loginFailTest" class="Com.TestCases.LoginFailTest"/>
+        <method signature="LoginTestCase.loginTest()[pri:0, instance:Com.TestCases.LoginTestCase@c33b74f]" name="loginTest" class="Com.TestCases.LoginTestCase"/>
+        <method signature="LogoutTestCase.logoutTest()[pri:0, instance:Com.TestCases.LogoutTestCase@6a192cfe]" name="logoutTest" class="Com.TestCases.LogoutTestCase"/>
+        <method signature="UpdateContDetlsTest.updateContDetlsTest()[pri:0, instance:Com.TestCases.UpdateContDetlsTest@2f7298b]" name="updateContDetlsTest" class="Com.TestCases.UpdateContDetlsTest"/>
+        <method signature="UpdateProfileTest.upddateProTest()[pri:0, instance:Com.TestCases.UpdateProfileTest@16ec5519]" name="upddateProTest" class="Com.TestCases.UpdateProfileTest"/>
+        <method signature="UploadFileTest.uplooadFileTest()[pri:0, instance:Com.TestCases.UploadFileTest@1ea9f6af]" name="uplooadFileTest" class="Com.TestCases.UploadFileTest"/>
+      </group> <!-- overAllFunctions -->
+    </groups>
+    <test started-at="2022-07-17T18:11:58 IST" name="Orange Tests" finished-at="2022-07-17T18:14:00 IST" duration-ms="122371">
+      <class name="Com.TestCases.UpdateContDetlsTest">
+        <test-method signature="updateContDetlsTest()[pri:0, instance:Com.TestCases.UpdateContDetlsTest@2f7298b]" started-at="2022-07-17T18:11:58 IST" name="updateContDetlsTest" finished-at="2022-07-17T18:13:04 IST" duration-ms="66447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContDetlsTest -->
+      </class> <!-- Com.TestCases.UpdateContDetlsTest -->
+      <class name="Com.TestCases.LoginTestCase">
+        <test-method signature="loginTest()[pri:0, instance:Com.TestCases.LoginTestCase@c33b74f]" started-at="2022-07-17T18:11:58 IST" name="loginTest" finished-at="2022-07-17T18:12:56 IST" duration-ms="58768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Com.TestCases.LoginTestCase -->
+      <class name="Com.TestCases.UpdateProfileTest">
+        <test-method signature="upddateProTest()[pri:0, instance:Com.TestCases.UpdateProfileTest@16ec5519]" started-at="2022-07-17T18:11:58 IST" name="upddateProTest" finished-at="2022-07-17T18:13:06 IST" duration-ms="67898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upddateProTest -->
+      </class> <!-- Com.TestCases.UpdateProfileTest -->
+      <class name="Com.TestCases.AddAdminUser">
+        <test-method signature="addAdminUser()[pri:0, instance:Com.TestCases.AddAdminUser@188715b5]" started-at="2022-07-17T18:11:58 IST" name="addAdminUser" finished-at="2022-07-17T18:13:04 IST" duration-ms="66121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdminUser -->
+      </class> <!-- Com.TestCases.AddAdminUser -->
+      <class name="Com.TestCases.CheckBoardsTest">
+        <test-method signature="checkBoradTest()[pri:0, instance:Com.TestCases.CheckBoardsTest@50eac852]" started-at="2022-07-17T18:11:58 IST" name="checkBoradTest" finished-at="2022-07-17T18:14:00 IST" duration-ms="122323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoradTest -->
+      </class> <!-- Com.TestCases.CheckBoardsTest -->
+      <class name="Com.TestCases.UploadFileTest">
+        <test-method signature="uplooadFileTest()[pri:0, instance:Com.TestCases.UploadFileTest@1ea9f6af]" started-at="2022-07-17T18:11:58 IST" name="uplooadFileTest" finished-at="2022-07-17T18:13:07 IST" duration-ms="69041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uplooadFileTest -->
+      </class> <!-- Com.TestCases.UploadFileTest -->
+      <class name="Com.TestCases.LogoutTestCase">
+        <test-method signature="logoutTest()[pri:0, instance:Com.TestCases.LogoutTestCase@6a192cfe]" started-at="2022-07-17T18:11:58 IST" name="logoutTest" finished-at="2022-07-17T18:12:54 IST" duration-ms="56780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- Com.TestCases.LogoutTestCase -->
+      <class name="Com.TestCases.LoginFailTest">
+        <test-method signature="loginFailTest()[pri:0, instance:Com.TestCases.LoginFailTest@61df66b6]" started-at="2022-07-17T18:11:58 IST" name="loginFailTest" finished-at="2022-07-17T18:12:39 IST" duration-ms="41641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailTest -->
+      </class> <!-- Com.TestCases.LoginFailTest -->
+    </test> <!-- Orange Tests -->
+  </suite> <!-- Orange Suite -->
+</testng-results>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="methods" name="Failed suite [Orange Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="7" parallel="methods" name="Orange Tests(failed)">
+    <groups>
+      <run>
+        <include name="overAllFunctions"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Com.TestCases.UpdateContDetlsTest">
+        <methods>
+          <include name="updateContDetlsTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.UpdateContDetlsTest -->
+      <class name="Com.TestCases.LoginFailTest">
+        <methods>
+          <include name="loginFailTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.LoginFailTest -->
+      <class name="Com.TestCases.LogoutTestCase">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.LogoutTestCase -->
+      <class name="Com.TestCases.LoginTestCase">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.LoginTestCase -->
+      <class name="Com.TestCases.UpdateProTest">
+        <methods>
+          <include name="upddateProTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.UpdateProTest -->
+      <class name="Com.TestCases.ChkBoardsTest">
+        <methods>
+          <include name="chkBoradTest"/>
+        </methods>
+      </class> <!-- Com.TestCases.ChkBoardsTest -->
+      <class name="Com.TestCases.AddAdminUser">
+        <methods>
+          <include name="addAdminUser"/>
+        </methods>
+      </class> <!-- Com.TestCases.AddAdminUser -->
+    </classes>
+  </test> <!-- Orange Tests(failed) -->
+</suite> <!-- Failed suite [Orange Suite] -->
